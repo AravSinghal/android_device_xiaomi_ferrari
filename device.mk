@@ -211,6 +211,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ft5x46.kl:system/usr/keylayout/ft5x46.kl \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
+# Sensors
+PRODUCT_PACKAGES += \
+libjni_proximityCalibrate \
+ProximityCalibrate \
+sensors.msm8916
+
 # WiFi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
