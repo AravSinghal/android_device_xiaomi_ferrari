@@ -27,5 +27,5 @@ $(call inherit-product, device/xiaomi/ferrari/device.mk)
 PRODUCT_DEVICE := ferrari
 PRODUCT_NAME := full_ferrari
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 4i
+PRODUCT_MODEL := Mi 4i
 PRODUCT_MANUFACTURER := Xiaomi
